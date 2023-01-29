@@ -8,6 +8,8 @@ const loadNewsData = categoryId => {
 
 
 const displayLoadedNewsData = loadedNews => {
+    const totalNewsNumber = document.getElementById('total-news-number');
+    totalNewsNumber.innerText = `${loadedNews.length} news available.`;
     const displayLoadedNews = document.getElementById('display-loaded-news');
     displayLoadedNews.textContent = ``;
     loadedNews.forEach(news => {
