@@ -1,0 +1,8 @@
+.nav-hover:hover{
+    border-bottom: 3px solid rgb(110, 110, 253);
+    color: rgb(107, 107, 250);
+}
+
+.horizontal-row{
+    margin-top: 90px;
+}
