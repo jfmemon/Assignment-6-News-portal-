@@ -33,3 +33,7 @@
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
 }
+
+@media screen and (max-device-width:640px), screen and (max-width:640px) {
+
+    }

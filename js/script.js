@@ -23,7 +23,7 @@ const displayLoadedNewsData = loadedNews => {
                       <h5 class="card-title">${news.title}</h5>
                       <p class="card-text">${news.details}</p>
                     </div>
-                    <div class="row">
+                    <div class="row gap-3">
                         <div class="col-md-4">
                             <div class="row gap-0">
                                 <div class="col-md-3 p-3">
@@ -35,14 +35,14 @@ const displayLoadedNewsData = loadedNews => {
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4 d-flex justify-content-center align-items-center gap-1">
+                            <i class="fa-solid fa-eye" style="font-size:15px;"></i>
+                            <p class="mb-0">${news.total_view} M</p>
+                        </div>
                     </div>
                   </div>
                 </div>
     `;
         displayLoadedNews.appendChild(displayNewsDiv);
     })
-
 }
-
-
-
