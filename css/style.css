@@ -4,5 +4,17 @@
 }
 
 .horizontal-row{
-    margin-top: 90px;
+    margin-top: 95px;
+}
+
+.under-navbar-buttons:hover{
+    background-color: rgb(224, 224, 248);
+    color: rgb(107, 107, 250);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.card{
+    margin-bottom: 10px;
+    padding: 10px;
 }
