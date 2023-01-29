@@ -23,6 +23,19 @@ const displayLoadedNewsData = loadedNews => {
                       <h5 class="card-title">${news.title}</h5>
                       <p class="card-text">${news.details}</p>
                     </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="row gap-0">
+                                <div class="col-md-3 p-3">
+                                    <img class="author-image" src="${news.author.img}">
+                                </div>
+                                <div class="col-md-8 px-0 pt-1 align-item-center">
+                                    <p class="mb-0">${news.author.name}</p>
+                                    <small class="text-secondary">${news.author.published_date}</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                   </div>
                 </div>
     `;

@@ -1,20 +1,35 @@
-.nav-hover:hover{
+.nav-hover:hover {
     border-bottom: 3px solid rgb(110, 110, 253);
     color: rgb(107, 107, 250);
 }
 
-.horizontal-row{
+.horizontal-row {
     margin-top: 95px;
 }
 
-.under-navbar-buttons:hover{
+.under-navbar-buttons:hover {
     background-color: rgb(224, 224, 248);
     color: rgb(107, 107, 250);
     font-weight: 500;
     border-radius: 5px;
 }
 
-.card{
+.card {
     margin-bottom: 10px;
     padding: 10px;
+}
+
+.author-image {
+    width: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
 }
