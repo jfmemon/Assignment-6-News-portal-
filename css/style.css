@@ -26,7 +26,7 @@
     align-items: center;
 }
 
-.card-text{
+.card-text {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -34,9 +34,9 @@
     -webkit-box-orient: vertical;
 }
 
-@media screen and (max-device-width:640px), screen and (max-width:640px) {
-    .news-categories{
-        display: flex;
+@media only screen and (max-width: 600px) {
+    #news-categories {
+        /* display: grid; */
         flex-direction: column;
     }
 }
