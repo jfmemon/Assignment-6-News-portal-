@@ -6,7 +6,6 @@ const loadNewsData = categoryId => {
         .catch(error => console.log(error))
 }
 
-
 const displayLoadedNewsData = loadedNews => {
     const totalNewsNumber = document.getElementById('total-news-number');
     totalNewsNumber.innerText = `${loadedNews.length} news available.`;
@@ -39,7 +38,14 @@ const displayLoadedNewsData = loadedNews => {
                         </div>
                         <div class="col-md-4 d-flex justify-content-center align-items-center gap-1">
                             <i class="fa-solid fa-eye" style="font-size:15px;"></i>
-                            <p class="mb-0">${news.total_view} M</p>
+                            <h6 class="mb-0">${news.total_view} M</h6>
+                        </div>
+                        <div class="col-md-3 d-flex justify-content-center align-items-center gap-1">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
                         </div>
                     </div>
                   </div>
